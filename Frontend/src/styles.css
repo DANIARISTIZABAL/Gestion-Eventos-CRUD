@@ -1,0 +1,112 @@
+/* Paleta de colores */
+:root {
+    --primary-color: #1976D2;
+    --secondary-color: #FF4081;
+    --background-color: #F4F6F8;
+    --card-bg: #FFFFFF;
+    --text-color: #333;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Reset básico */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Cuerpo de la aplicación */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  /* Contenedor principal */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para tarjetas */
+  .card {
+    background: var(--card-bg);
+    box-shadow: 0px 4px 10px var(--shadow-color);
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Botones */
+  .btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #125a9d;
+  }
+  
+  .btn-secondary {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #D81B60;
+  }
+  
+  /* Formulario */
+  .form-container {
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px var(--shadow-color);
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .form-container input, .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background: var(--primary-color);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
