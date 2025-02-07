@@ -20,7 +20,7 @@ Una aplicación web para gestionar eventos, permitiendo a los usuarios registrar
 
 ## 📦 Instalación  
 Clona el repositorio e instala las dependencias:  
-git clone https://github.com/DANIARISTIZABAL/CRUD_EVENTOS.git
+git clone https://github.com/DANIARISTIZABAL/Gestion-Eventos-CRUD.git
 abres el archivo en tu visual studio code
 ## BACKEND
 cd backend
